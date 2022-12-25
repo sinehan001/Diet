@@ -1,0 +1,17 @@
+.invoice_lang {
+  font-weight: bold !important;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.info_text {
+  text-transform: uppercase;
+}
+.info_position {
+  text-align: left;
+}
+.table_tr {
+  border-bottom: 2px solid;
+}
+.option_button {
+  margin-top: 20px;
+}

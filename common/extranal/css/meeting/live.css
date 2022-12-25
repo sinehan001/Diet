@@ -1,0 +1,20 @@
+body {
+            padding-top: 50px;
+        }
+        .navbar-inverse {
+            background-color: #313131;
+            border-color: #404142;
+        }
+        .navbar-header h4 {
+            margin: 0;
+            padding: 15px 15px;
+            color: #c4c2c2;
+        }
+        .navbar-right h5 {
+            margin: 0;
+            padding: 9px 5px;
+            color: #c4c2c2;
+        }
+        .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+            border-color: transparent;
+        }

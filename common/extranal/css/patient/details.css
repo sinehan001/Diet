@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 13, 2021, 7:36:06 AM
+    Author     : sahas
+*/
+.bio-row {
+    width: 50%;
+    float: none;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 2px solid #f1f1f1;
+}
+
+.bio-graph-info {
+    color: #89817e;
+    padding: 23px;
+}
+

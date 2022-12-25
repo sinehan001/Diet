@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 13, 2021, 9:37:55 AM
+    Author     : sahas
+*/
+.patient_material_info{
+    margin-top:10px;
+}
+.patient_material_class1{
+    height: 200px !important;
+    width: 200px !important;
+    margin-right: 10px !important;
+    background: #f2f3f5 !important;
+    padding: 35px !important;
+    /*border: 1px solid #cccccc !important;*/
+}
+.patient_material_title{
+    text-align:center !important;
+}
+.patient_material_url{
+    padding-left: 25px !important;
+}
+thead {
+    background: #f1f1f1;  
+    border-bottom: 1px solid #ddd; 
+}
+
+.btn_width{
+    margin-bottom: 20px;
+}
+
+.tab-content{
+    padding: 20px 0px;
+}
+
+.cke_editable {
+    min-height: 1000px;
+}
+
+.btn-blue {
+    background: #0b005f;
+    border-color: #0b005f;
+    color: #f1f1f1;
+    font-weight: 600;
+    border-radius: 0px;
+}
+.btn-blue:hover {
+    color: #f1f1f1;
+    background-color: #201386;
+}
+.btn-dngr {
+    background: #44000d;
+    border-color: #44000d;
+    color: #f1f1f1; 
+    font-weight: 600;
+    border-radius: 0px;
+}
+.add_file{
+    margin-right: 50px; 
+}
+.patient_material_img{ 
+    margin-top:-15px;
+} 

@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2021, 7:22:13 PM
+    Author     : sahas
+*/
+
+.payment{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+
+}
+.pad_bot{
+    padding-bottom: 10px;
+}  
+
+form{
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background: transparent;
+}
+.pos{
+    padding-left:0px;
+}
+.form-control{
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.remove{
+        margin-bottom: 20px;
+        width:40px
+    }

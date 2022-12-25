@@ -1,0 +1,55 @@
+thead {
+  background: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+}
+
+.btn_width {
+  margin-bottom: 20px;
+}
+
+.tab-content {
+  padding: 20px 0px;
+}
+
+.cke_editable {
+  min-height: 1000px;
+}
+.label_class {
+  margin-right: 20px !important;
+}
+.history_back {
+  background: #7a2828;
+}
+.submit_checkout {
+  margin-right: 7px !important;
+}
+.submitdaily {
+  margin-right: 7px !important;
+}
+#save_button,
+.block_content,
+#save_button_service,
+#nurse_service,
+#checkout_submit {
+  display: block !important;
+}
+.medicine_table,
+.service_table,
+table {
+  width: 99% !important;
+}
+.total_med {
+  display: block !important;
+  height: 37px !important;
+  width: 283% !important;
+  border: 1px solid !important;
+}
+.twenty_class {
+  width: 20% !important;
+}
+.ten_class {
+  width: 10% !important;
+}
+.planned_class {
+  margin-right: 56px !important;
+}

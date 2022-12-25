@@ -1,0 +1,73 @@
+ 
+.lab{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border: none;
+
+}
+.pad_bot{
+    padding-bottom: 5px;
+}  
+
+form{
+    background: #ffffff;
+    padding: 20px 0px;
+}
+
+.modal-body form{
+    background: #fff;
+    padding: 21px;
+}
+
+.remove{
+    float: right;
+    margin-top: -45px;
+    margin-right: 42%;
+    margin-bottom: 41px;
+    width: 94px;
+    height: 29px;
+}
+
+.remove1 span{
+    width: 33%;
+    height: 50px !important;
+    padding: 10px
+
+}
+
+.qfloww {
+    padding: 10px 0px;
+    height: 370px;
+    background: #f1f2f9;
+    overflow: auto;
+}
+
+.remove1 {
+    background: #5A9599;
+    color: #fff;
+    padding: 5px;
+}
+
+
+.span2{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc
+}
+
+
+.img_url{
+    height:20px;
+    width:20px;
+    background-size: contain; 
+    max-height:20px;
+    border-radius: 100px;
+}
+.option_th{
+    width:18%;
+}

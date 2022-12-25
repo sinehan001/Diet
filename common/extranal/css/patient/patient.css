@@ -1,0 +1,370 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 13, 2021, 10:53:18 AM
+    Author     : sahas
+*/
+.img_url{
+    height:20px;
+    width:20px;
+    background-size: contain; 
+    max-height:20px;
+    border-radius: 100px;
+}
+.img_class{
+    width: 200px;
+    height: 150px;
+}
+.wrapper {
+    padding: 5px 30px 0px 30px !important;
+}
+.img_thumb{
+    max-width: 200px;
+    max-height: 150px;
+    line-height: 20px;
+}
+
+.form-diet-select {
+    width: 50%;
+    display: table;
+    margin: 15px auto;
+}
+
+.rwd-table {
+    margin: auto;
+    min-width: 300px;
+    max-width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .panel {
+    margin-top: 15px;
+  }
+  
+  .rwd-table th{
+    border-top: none;
+    background: #428bca;
+    color: #fff;
+  }
+  
+  .space15 {
+      padding: 15px 0px;
+  }
+  
+  .ftr td{
+      color: #000 !important;
+  }
+  
+  .rwd-table tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f9fc;
+  }
+  
+  .rwd-table tr:nth-child(odd):not(:first-child) {
+    background-color: #ebf3f9;
+  }
+  
+  .rwd-table th {
+    display: none;
+  }
+  
+  .rwd-table td {
+    display: block;
+  }
+  
+  .rwd-table td:first-child {
+    margin-top: .5em;
+  }
+  
+  .rwd-table td:last-child {
+    margin-bottom: .5em;
+  }
+  
+  .rwd-table td:before {
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 120px;
+    display: inline-block;
+    color: #000;
+  }
+  
+  .rwd-table th,
+  .rwd-table td {
+    text-align: left;
+  }
+  
+  .rwd-table {
+    color: #333;
+    border-radius: .4em;
+    overflow: hidden;
+  }
+  
+  .rwd-table tr {
+    border-color: #bfbfbf;
+  }
+  
+  .rwd-table th,
+  .rwd-table td {
+    padding: .5em 1em;
+  }
+  @media screen and (max-width: 601px) {
+    .rwd-table tr:nth-child(2) {
+      border-top: none;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .rwd-table tr:hover:not(:first-child) {
+      background-color: #d8e7f3;
+    }
+    .rwd-table td:before {
+      display: none;
+    }
+    .rwd-table th,
+    .rwd-table td {
+      display: table-cell;
+      padding: .25em .5em;
+    }
+    .rwd-table th:first-child,
+    .rwd-table td:first-child {
+      padding-left: 0;
+    }
+    .rwd-table th:last-child,
+    .rwd-table td:last-child {
+      padding-right: 0;
+    }
+    .rwd-table th,
+    .rwd-table td {
+      padding: 1em !important;
+    }
+  }
+
+.tablink, .tablink1, .tablink2, .tablink3, .tablink4 {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    font-weight: bold;
+  }
+  
+  .tablink1, .tablink3, .tablink4 {
+    width: calc(100%/7);
+  }
+  
+  .tablink2 {
+    width: 50%;
+  }
+  
+  h1, p{
+    color: #428bca;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .tablink:hover, .tablink1:hover, .tablink2:hover, .tablink3:hover, .tablink4:hover {
+    background-color: #777;
+  }
+  
+  .tabcontent, .tabcontent1, .tabcontent2, .tabcontent3, .tabcontent4 {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+
+  .appendChart~button {
+    background-color: #428bca;
+    color: white;
+  }
+
+
+  /* Diet Plans CSS */
+
+  .img_url{
+    height:20px;
+    width:20px;
+    background-size: contain; 
+    max-height:20px;
+    border-radius: 100px;
+}
+.img_class{
+    width: 200px;
+    height: 150px;
+}
+.wrapper {
+    padding: 5px 30px 0px 30px !important;
+}
+.img_thumb{
+    max-width: 200px;
+    max-height: 150px;
+    line-height: 20px;
+}
+
+.form-diet-select {
+    width: 50%;
+    display: table;
+    margin: 15px auto;
+}
+
+.rwd-table {
+    margin: auto;
+    min-width: 300px;
+    max-width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .panel {
+    margin-top: 15px;
+  }
+  
+  .rwd-table th{
+    border-top: none;
+    background: #428bca;
+    color: #fff;
+  }
+  
+  .space15 {
+      padding: 15px 0px;
+  }
+  
+  .ftr td{
+      color: #000 !important;
+  }
+  
+  .rwd-table tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f9fc;
+  }
+  
+  .rwd-table tr:nth-child(odd):not(:first-child) {
+    background-color: #ebf3f9;
+  }
+  
+  .rwd-table th {
+    display: none;
+  }
+  
+  .rwd-table td {
+    display: block;
+  }
+  
+  .rwd-table td:first-child {
+    margin-top: .5em;
+  }
+  
+  .rwd-table td:last-child {
+    margin-bottom: .5em;
+  }
+  
+  .rwd-table td:before {
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 120px;
+    display: inline-block;
+    color: #000;
+  }
+  
+  .rwd-table th,
+  .rwd-table td {
+    text-align: left;
+  }
+  
+  .rwd-table {
+    color: #333;
+    border-radius: .4em;
+    overflow: hidden;
+  }
+  
+  .rwd-table tr {
+    border-color: #bfbfbf;
+  }
+  
+  .rwd-table th,
+  .rwd-table td {
+    padding: .5em 1em;
+  }
+  @media screen and (max-width: 601px) {
+    .rwd-table tr:nth-child(2) {
+      border-top: none;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .rwd-table tr:hover:not(:first-child) {
+      background-color: #d8e7f3;
+    }
+    .rwd-table td:before {
+      display: none;
+    }
+    .rwd-table th,
+    .rwd-table td {
+      display: table-cell;
+      padding: .25em .5em;
+    }
+    .rwd-table th:first-child,
+    .rwd-table td:first-child {
+      padding-left: 0;
+    }
+    .rwd-table th:last-child,
+    .rwd-table td:last-child {
+      padding-right: 0;
+    }
+    .rwd-table th,
+    .rwd-table td {
+      padding: 1em !important;
+    }
+  }
+
+.tablink, .tablink1, .tablink2, .tablink3, .tablink4 {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    font-weight: bold;
+  }
+  
+  .tablink1, .tablink3, .tablink4 {
+    width: calc(100%/7);
+  }
+  
+  .tablink2 {
+    width: 50%;
+  }
+  
+  h1, p{
+    color: #428bca;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .tablink:hover, .tablink1:hover, .tablink2:hover, .tablink3:hover, .tablink4:hover {
+    background-color: #777;
+  }
+  
+  .tabcontent, .tabcontent1, .tabcontent2, .tabcontent3, .tabcontent4 {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }

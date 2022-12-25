@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2021, 8:57:48 PM
+    Author     : sahas
+*/
+
+.editable-table .search_form{
+    border: 0px solid #ccc !important;
+    padding: 0px !important;
+    background: none !important;
+    float: right;
+    margin-right: 14px !important;
+}
+
+
+.editable-table .search_form input{
+    padding: 6px !important;
+    width: 250px !important;
+    background: #fff !important;
+    border-radius: none !important;
+}
+
+.editable-table .search_row{
+    margin-bottom: 20px !important;
+}
+
+.panel-body {
+    padding: 15px 0px 15px 0px;
+}
+.img_url{
+    height:20px;
+    width:20px;
+    background-size: contain; 
+    max-height:20px;
+    border-radius: 100px;
+}
+.option_th{
+    width:18%;
+}
+.green,.invoicebutton{
+    color: #fff !important;
+}
+

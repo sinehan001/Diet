@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 13, 2021, 9:19:05 AM
+    Author     : sahas
+*/
+.address_bar {
+  height: 200px !important;
+}
+.invoicebutton {
+  color: #fff !important;
+}
+.add_folder_css {
+  margin-right: 50px !important;
+}
+.patient_material_class1 {
+  height: 150px !important;
+  width: 250px !important;
+  margin-right: 10px !important;
+  background: #fff !important;
+  padding: 20px !important;
+  /*border: 1px solid #cccccc !important;*/
+}
+.patient_material_title {
+  text-align: center !important;
+}
+.patient_material_url {
+  padding-left: 25px !important;
+}
+.toggle_dropdown {
+  margin-right: 100px !important;
+}
+.img_url {
+  height: 20px;
+  width: 20px;
+  background-size: contain;
+  max-height: 20px;
+  border-radius: 100px;
+}
+.img_class {
+  width: 200px;
+  height: 150px;
+}
+.img_thumb {
+  max-width: 200px !important;
+  max-height: 150px !important;
+  line-height: 20px !important;
+}
+thead {
+  background: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+}
+
+.btn_width {
+  margin-bottom: 20px;
+}
+
+.tab-content {
+  padding: 20px 0px;
+}
+
+.cke_editable {
+  min-height: 1000px;
+}
+
+.btn-blue {
+  background: #0b005f;
+  border-color: #0b005f;
+  color: #f1f1f1;
+  font-weight: 600;
+  border-radius: 0px;
+}
+.btn-blue:hover {
+  color: #f1f1f1;
+  background-color: #201386;
+}
+.header_table {
+  font-size: 10px !important;
+}
+
+.no-print {
+  width: 15%;
+}
+.btn-xs {
+  padding: 4px 9px !important;
+}
+.table {
+  width: 98% !important;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@media (min-width: 576px) {
+.jumbotron {
+    padding: 6rem 2rem !important;
+}
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon div {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    background: white;
+    margin: 5px;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url(../img/loader.gif) no-repeat center;
+    z-index: 99999;
+}
+
+/*................
+ ====> General 
+ .................*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #5f5f5f;
+}
+
+a {
+    color: #f77b6f;
+}
+
+a:hover {
+    color: #f77b6f;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+/*................
+ ====> Header
+ .................*/
+#header {
+    /*background-image: url(../img/header-bg.png);
+    background-size: cover;
+    background-position: center;*/
+    /*min-height: 100vh;*/
+}
+
+/*................
+ ====> Main Nav Top Menu
+ .................*/
+#header_menu_top {
+}
+#header_menu_top .fa-phone {
+}
+
+/*................
+ ====> Main Nav 
+ .................*/
+.fixed-top.navbar {
+    padding: 0px;
+}
+
+#header .nav-link {
+    font-weight: bolder;
+    font-size: 18px;
+}
+#header .nav-link:hover {
+    background-color: #f77b6f;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+
+/*................
+ ====> Main Header
+ .................*/
+#header .jumbotron {
+    background: none;
+}
+#header .jumbotron h1 {
+    font-weight: normal;
+    font-size: 70px;
+    padding-right: 50%;
+}
+#header .jumbotron h4 {
+    font-weight: normal;
+    font-size: 26px;
+    padding-right: 50%;
+}
+#header .jumbotron p {
+    font-weight: normal;
+    font-size: 18px;
+    padding-right: 50%;
+}
+#header .jumbotron a.btn-light {
+    color: #fff;
+    background-color: #6bc2f1;
+    border-color: #6bc2f1;
+    border-radius: none;
+}
+#header .jumbotron a.btn {
+    border-radius: 0px;
+}
+
+/*................
+ ====> Why Choose Us
+ .................*/
+#why_choose_us {
+    overflow: hidden;
+    padding-top: 80px;
+}
+#why_choose_us h6 {
+    font-weight: normal;
+    font-size: 19px;
+    color: #6bc2f1;
+    text-transform: uppercase;
+}
+#why_choose_us h4 {
+    font-weight: normal;
+    font-size: 36px;
+    color: #000;
+}
+#why_choose_us p {
+    font-weight: normal;
+    font-size: 18px;
+}
+#why_choose_us a.btn-light {
+    color: #fff;
+    background-color: #6bc2f1;
+    border-color: #6bc2f1;
+    border-radius: none;
+}
+#why_choose_us a.btn {
+    border-radius: 0px;
+}
+
+/*................
+ ====> Featured Area
+ .................*/
+#featured {
+    overflow: hidden;
+    background-color: #6bc2f1;
+}
+#featured h6 {
+    font-size: 19px;
+    text-transform: uppercase;
+}
+#featured h3 {
+    font-size: 36px;
+}
+#featured p {
+    font-size: 18px;
+}
+
+/*................
+ ====> Featured Services
+ .................*/
+#featured_services {
+    overflow: hidden;
+    padding-top: 80px;
+}
+#featured_services h3 {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}
+#featured_services p {
+    font-size: 16px;
+}
+
+/*................
+ ====> Featured Doctors
+ .................*/
+#doctor {
+    overflow: hidden;
+    padding-top: 80px;
+}
+#doctor h3 {
+    text-transform: capitalize;
+}
+#doctor h6 {
+}
+#doctor h4 {
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#doctor p {
+    font-size: 18px;
+}
+
+/*................
+ ====> Gallery
+ .................*/
+#gallery {
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+#gallery .col-md-4 {
+    overflow: hidden;
+}
+
+#gallery img {
+    transform-origin: 0 0;
+    transition: transform 0.4s, visibility 0.4s ease-in;
+}
+#gallery img:hover {
+    transform: scale(1.15);
+}
+/*................
+ ====> Testimonials Slider Area
+ .................*/
+#portfolio {
+    overflow: hidden;
+    padding-top: 80px;
+}
+.portfolio-testimonials {
+    position: relative;
+    margin-top: 30px;
+}
+@media (max-width: 767px) {
+    .portfolio-testimonials {
+        margin-top: 20px;
+    }
+}
+.portfolio-testimonials h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.portfolio-testimonials .owl-stage-outer {
+    padding: 30px 0;
+}
+.portfolio-testimonials .owl-nav {
+    display: none;
+}
+.portfolio-testimonials .owl-dots {
+    text-align: center;
+}
+.portfolio-testimonials .owl-dots span {
+    position: relative;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: block;
+    background: #fff;
+    border: 2px solid #01b0f8;
+    margin: 0 5px;
+}
+.portfolio-testimonials .owl-dots .active {
+    box-shadow: none;
+}
+.portfolio-testimonials .owl-dots .active span {
+    background: #01b0f8;
+    box-shadow: none;
+    height: 12px;
+    width: 12px;
+    margin-bottom: -1px;
+}
+.portfolio-testimonials .card {
+    background: #fff;
+    box-shadow: 0 8px 30px -7px #c9dff0;
+    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 0;
+}
+.portfolio-testimonials .card .card-img-top {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 15px auto 0;
+    box-shadow: 0 8px 20px -4px #95abbb;
+    width: 100px;
+    height: 100px;
+}
+.portfolio-testimonials .card h5 {
+    color: #01b0f8;
+    font-size: 21px;
+    line-height: 1.3;
+}
+.portfolio-testimonials .card h5 span {
+    font-size: 18px;
+    color: #666666;
+}
+.portfolio-testimonials .card p {
+    font-size: 18px;
+    color: #555;
+    padding-bottom: 15px;
+}
+.portfolio-testimonials .active {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+.portfolio-testimonials .center {
+    opacity: 1;
+}
+.portfolio-testimonials .center h5 {
+    font-size: 24px;
+}
+.portfolio-testimonials .center h5 span {
+    font-size: 20px;
+}
+.portfolio-testimonials .center .card-img-top {
+    max-width: 100%;
+    height: 120px;
+    width: 120px;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    outline: 0;
+}
+
+/*................
+ ====> Footer Area
+ .................*/
+#footer {
+    overflow: hidden;
+    background-color: #072135;
+}
+#footer h6 {
+    font-size: 18px;
+}
+#footer p {
+    font-size: 14px;
+}
+#footer address {
+    font-size: 14px;
+}
+
+/*................ ====> End Stylesheet File .................*/

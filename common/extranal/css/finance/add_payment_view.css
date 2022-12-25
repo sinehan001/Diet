@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 10, 2021, 5:07:45 PM
+    Author     : sahas
+*/
+.payment{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border: none;
+
+}
+.pad_bot{
+    padding-bottom: 5px;
+}  
+
+form{
+    background: #f1f1f1;
+    padding: 15px 0px;
+}
+
+.modal-body form{
+    background: #fff;
+    padding: 21px;
+}
+
+.remove{
+    width: 20%;
+    float: right;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 39px;
+    text-align: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.remove1{
+    width: 80%;
+    float: left;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+form input {
+    border: none;
+}
+
+.pos_box_title{
+    border: none;
+}
+
+.payment_label {
+    text-align: left;
+}
+

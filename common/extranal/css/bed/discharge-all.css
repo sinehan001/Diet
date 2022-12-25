@@ -1,0 +1,30 @@
+.invoice-all {
+  font-size: 10px;
+}
+.img_class_logo {
+  border-radius: 50%;
+}
+.invoice-btn a {
+  font-size: 12px !important;
+}
+
+.invoice_user {
+  margin-top: 20px !important;
+  padding-left: 65px !important;
+}
+.checkout_attribute {
+  border: 1px solid #eee;
+  background-color: #16205c;
+  color: white;
+  text-align: center;
+  height: 32px;
+  padding: 6px 2px 2px 2px;
+  margin: 2px;
+  font-size: 12px;
+}
+.checkout_data {
+  padding-left: 16px;
+  font-size: 11px;
+  font-family: times;
+  font-weight: 400;
+}

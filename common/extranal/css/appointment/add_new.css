@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 5, 2021, 7:14:45 AM
+    Author     : sahas
+*/
+
+.panel {
+  background: transparent;
+}
+
+.payment_label {
+  margin-left: -2%;
+}
+.payment_section {
+  background: #fff !important;
+}
+.form_data {
+  padding-top: 20px;
+}
+.deposit_type {
+  text-align: left !important ;
+  margin: 0% !important ;
+}
+.info_message {
+  color: red;
+}

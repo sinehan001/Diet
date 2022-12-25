@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 9, 2021, 8:18:39 PM
+    Author     : sahas
+*/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+.invoice_test {
+  color: #fff !important;
+}
+.patient_material_class {
+  height: 200px !important;
+  width: 200px !important;
+  margin-right: 10px !important ;
+  background: #fff !important;
+  padding: 35px !important;
+  border: 1px solid #cccccc !important;
+}
+.documents {
+  text-align: center !important;
+}
+.option_material {
+  padding-left: 25px !important;
+}
+.address_style {
+  height: 200px !important;
+}
+.img_dashboard {
+  height: 77px;
+  border-radius: 50%;
+}
+.profile_name {
+  color: white !important;
+
+  border: 1px solid black !important;
+  margin-top: 7px !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  background-color: dimgrey !important;
+}
+.li_info {
+  pointer-events: none !important;
+}
+.hide-option {
+  display: none;
+}
+.show-option {
+  display: block;
+}
+.open > .dropdown-menu {
+  display: block;
+}
+.menu-position {
+  position: absolute !important;
+  top: 45px !important;
+  margin-right: 178px;
+  width: 296px;
+}
+#txtQuickFind {
+  width: 296px !important;
+  margin-top: -4px;
+}
+.site_map {
+  margin-top: -10px !important;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #eee !important;
+  padding: 3px 0px 1px 0px !important;
+}
+#typeahead-menu {
+  display: none;
+}
+.dropdown-menu > .site_map > a {
+  display: block;
+  padding: 3px 8px !important;
+  line-height: 2 !important;
+}

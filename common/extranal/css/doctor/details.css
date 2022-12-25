@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 7, 2021, 10:40:37 AM
+    Author     : sahas
+*/
+
+.button_his{
+    color: #fff !important;
+}
+.weekday{
+    background:#345678 !important;
+    color: #fff !important;
+}
+
+.med_his{
+    width: 80% !important;
+}
+
+
+thead {
+    background: #f1f1f1 !important; 
+    border-bottom: 1px solid #ddd !important; 
+}
+
+.btn_width{
+    margin-bottom: 20px !important;
+}
+
+.tab-content{
+    padding: 20px 0px !important;
+}
+
+.patient_datatable{
+    width: 100% !important;
+}

@@ -1,0 +1,299 @@
+/*=====================================================================================*/
+/* 
+  <!-- Desktops -->
+  <!--Screen Size 1281px to higher resolution desktops -->
+*/
+
+@media (min-width: 1281px) {
+  #header {
+    min-height: 70vh;
+  }
+}
+
+/*=====================================================================================*/
+/* 
+  <!-- Laptops, Desktops -->
+  <!--Screen Size Between 1025px to 1280px -->
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/*=====================================================================================*/
+/* 
+  <!-- Tablets, Ipads (portrait) -->
+  <!--Screen Size Between 768px to 1024px -->
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Full Header */
+  #header {
+    min-height: 80vh;
+  }
+
+  /* Header */
+  #header .jumbotron {
+    text-align: center;
+  }
+  #header .jumbotron h1 {
+    font-size: 60px;
+    padding-right: 0;
+  }
+  #header .jumbotron h4 {
+    font-size: 26px;
+    padding-right: 0;
+  }
+  #header .jumbotron p {
+    font-size: 18px;
+    padding-right: 0;
+  }
+
+  /* Why Choose Us */
+  #why_choose_us {
+    padding-top: 50px;
+  }
+  #why_choose_us h4 {
+    font-weight: normal;
+    font-size: 24px;
+    color: #000;
+  }
+  #why_choose_us p {
+    font-size: 14px;
+  }
+
+  /* Featured */
+  #featured h6 {
+    font-size: 12px;
+  }
+  #why_choose_us h6 {
+    font-size: 14px;
+  }
+  #featured h3 {
+    font-size: 24px;
+  }
+  #featured p {
+    font-size: 14px;
+  }
+
+  /* Featured Services */
+  #featured_services {
+    padding-top: 50px;
+  }
+
+  /* Doctor */
+  #doctor {
+    padding-top: 50px;
+  }
+
+  /* Portfolio */
+  #portfolio {
+    padding-top: 50px;
+  }
+}
+
+/*=====================================================================================*/
+/* 
+  <!-- Low Resolution Tablets, Mobiles -->
+  <!--Screen Size Between 481px to 767px -->
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Full Header */
+  #header {
+    min-height: 80vh;
+  }
+
+  /* Top Header */
+  #header_menu_top p {
+    display: none;
+  }
+  #header_menu_top a {
+    padding-bottom: 15px;
+  }
+
+  /* Header */
+  #header .jumbotron {
+    text-align: center;
+  }
+  #header .jumbotron h1 {
+    font-size: 60px;
+    padding-right: 0;
+  }
+  #header .jumbotron h4 {
+    font-size: 26px;
+    padding-right: 0;
+  }
+  #header .jumbotron p {
+    font-size: 18px;
+    padding-right: 0;
+  }
+
+  /* Why Choose Us */
+  #why_choose_us {
+    padding-top: 30px;
+    text-align: center;
+  }
+  #why_choose_us h4 {
+    font-weight: normal;
+    font-size: 24px;
+    color: #000;
+  }
+  #why_choose_us p {
+    font-size: 14px;
+  }
+
+  /* Featured */
+  #featured h6 {
+    font-size: 12px;
+  }
+  #featured .featured_top .col-md-6 {
+    margin-bottom: 40px;
+  }
+
+  #featured .featured_bottom .col-md-6 {
+    margin-bottom: 40px;
+  }
+  #featured .featured_bottom .col-md-6:last-child {
+    margin-bottom: 0;
+  }
+
+  #why_choose_us h6 {
+    font-size: 14px;
+  }
+  #featured h3 {
+    font-size: 24px;
+  }
+  #featured p {
+    font-size: 14px;
+  }
+
+  /* Featured Services */
+  #featured_services {
+    padding-top: 30px;
+  }
+
+  /* Doctor */
+  #doctor {
+    padding-top: 30px;
+  }
+
+  /* Portfolio */
+  #portfolio {
+    padding-top: 30px;
+  }
+}
+
+/*=====================================================================================*/
+/* 
+  <!-- Most of the Smartphones Mobiles (Portrait) -->
+  <!--Screen Size Between 320px to 479px -->
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Full Header */
+  #header {
+    min-height: 80vh;
+  } 
+   #header .navbar-brand img{
+    height: 45px;
+  }
+
+  /* Top Header */
+  #header_menu_top p {
+    display: none;
+  }
+  #header_menu_top a {
+    padding-bottom: 15px;
+  }
+
+  /* Header */
+  #header .jumbotron {
+    text-align: center;
+  }
+  #header .jumbotron h1 {
+    font-size: 40px;
+    padding-right: 0;
+  }
+  #header .jumbotron h4 {
+    font-size: 22px;
+    padding-right: 0;
+  }
+  #header .jumbotron p {
+    font-size: 14px;
+    padding-right: 0;
+  }
+
+  /* Why Choose Us */
+  #why_choose_us {
+    padding-top: 30px;
+    text-align: center;
+  }
+  #why_choose_us h4 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #000;
+  }
+  #why_choose_us p {
+    font-size: 14px;
+  }
+
+  /* Featured */
+  #featured h6 {
+    font-size: 12px;
+  }
+  #featured .featured_top .col-md-6 {
+    margin-bottom: 40px;
+  }
+
+  #featured .featured_bottom .col-md-6 {
+    margin-bottom: 40px;
+  }
+  #featured .featured_bottom .col-md-6:last-child {
+    margin-bottom: 0;
+  }
+
+  #why_choose_us h6 {
+    font-size: 14px;
+  }
+  #featured h3 {
+    font-size: 20px;
+  }
+  #featured p {
+    font-size: 14px;
+  }
+
+  /* Featured Services */
+  #featured_services {
+    padding-top: 30px;
+  }
+
+  /* Doctor */
+  #doctor {
+    padding-top: 30px;
+  }
+  #doctor h3 {
+    font-size: 20px;
+  }
+  #doctor h6 {
+    font-size: 14px;
+  }
+  #doctor p {
+    font-size: 14px;
+  }
+
+  /* Portfolio */
+  #portfolio {
+    padding-top: 30px;
+  }
+  .portfolio-testimonials h2 {
+    font-size: 20px;
+  }
+  .portfolio-testimonials .center h5 {
+    font-size: 20px;
+  }
+  .portfolio-testimonials .card p {
+    font-size: 14px;
+  }
+}
+
+/*................ ====> End Stylesheet File .................*/

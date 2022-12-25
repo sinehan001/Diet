@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 23, 2021, 9:36:56 AM
+    Author     : sahas
+*/
+.panel-primary>.panel-heading {
+    padding: 10px;
+}
+
+.panel-body {
+    background: #f1f2f7;
+}
+.restore_db{
+    display: none;
+}
+
+
+#backup_database{
+    margin-bottom: 10px;
+    float: left !important;
+}
+.download_button{
+    margin-top:-7px !important;
+}
+.livicon{
+    width: 50px; 
+    height: 50px;
+}

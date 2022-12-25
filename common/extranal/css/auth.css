@@ -1,0 +1,18 @@
+table, th, td {
+    border: 1px solid #f1f2f7;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    font-size:12px;
+}
+td,th,h4{
+    color:#aaa;
+
+}
+form{
+
+    padding: 0px;
+    border: none;
+}

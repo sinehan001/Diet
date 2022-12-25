@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 5, 2021, 8:29:59 AM
+    Author     : sahas
+*/
+
+.img_url {
+  height: 20px;
+  width: 20px;
+  background-size: contain;
+  max-height: 20px;
+  border-radius: 100px;
+}
+table {
+  width: 100% !important;
+}
+#myModal,
+#myModal2,
+#myModal4 {
+  display: none;
+}
+.med_his {
+  width: 80% !important;
+}
+.task-thumb {
+  margin-right: 10px !important;
+}
+.form_data,
+.consultant_fee_div {
+  padding-top: 20px;
+}
+.deposit_type,
+.deposit_type1 {
+  text-align: left !important ;
+  margin: 0% !important ;
+}
+.info_message {
+  color: red;
+}

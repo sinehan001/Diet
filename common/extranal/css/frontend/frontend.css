@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 12, 2021, 12:59:23 AM
+    Author     : sahas
+*/
+
+.topbar-texts,
+.footer-description {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 15px !important;
+}
+
+.headerSlider .owl-nav .owl-prev {
+  position: absolute;
+  left: 0;
+  top: 250px;
+}
+
+.headerSlider .owl-nav .owl-next {
+  position: absolute;
+  right: 0;
+  top: 250px;
+}
+
+@media only screen and (max-width: 500px) {
+  .headerSlider .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 180px;
+  }
+  .headerSlider .owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+    top: 180px;
+  }
+}
+
+.hd-nav-btn {
+  padding: 0 5px;
+}
+
+.feedback_class {
+  text-align: center !important;
+  color: green !important;
+  font-size: 23px !important;
+  font-weight: 500 !important;
+}
+.appointment_modal_header {
+  background: #152651 !important;
+  border-radius: 19px 19px 0px 0px !important;
+  color: white !important;
+}
+.appointment_modal_body {
+  border: transparent !important;
+}
+.patient_add {
+  color: #41cac0 !important;
+}
+.patient_add_new {
+  color: #41cac0 !important;
+}
+.gridsection_img {
+  padding: 0;
+}
+.featured_services {
+  padding-top: 25px !important;
+}
+.text-custom {
+  color: #212529 !important;
+  border-radius: 20px 19px 0px 0px !important;
+}
+.bg-success {
+  background-color: #f8f9fa !important;
+}
+#submit-btn {
+  background-color: #152651;
+}
+.modal_close {
+  color: white !important;
+}
+.form-control {
+  margin-bottom: 6px;
+}
